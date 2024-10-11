@@ -10,6 +10,8 @@ use Illuminate\Validation\ValidationException;
 use Livewire\Attributes\Validate;
 use Livewire\Form;
 
+
+
 class LoginForm extends Form
 {
     #[Validate('required|string|email')]
